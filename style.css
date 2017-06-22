@@ -200,3 +200,62 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width:980px){
+    .sidebar{
+      float:left;
+      margin-left:30px;
+
+    }
+    .main-section{
+      max-width: 500px;
+      margin:0 0 40px 60px;
+    }
+    #masthead{
+      width:98%;
+    }
+    nav{
+      margin-right: 25px;
+    }
+}
+@media screen and (max-width:768px){
+    #masthead{
+      width:98%;
+    }
+
+    nav{
+      width:364px;
+    }
+    .sidebar{
+      float:left;
+      max-width: none;
+      margin-left: 0px
+    }
+    .main-section{
+      max-width:none;
+      margin:0 0 40px 0;
+
+    }
+}
+@media screen and (max-width:640px){
+    #masthead{
+      position:static;
+      width:100%;
+    }
+    #logo{width:100%;
+    }
+    nav {
+      width:100%;
+      text-align: center;
+    }
+    .auth-image{
+      width:100%;
+    }
+    .sidebar{
+      float:left;
+      max-width: none;
+    }
+    .main-section{
+      width:100%;
+    }
+}
+
